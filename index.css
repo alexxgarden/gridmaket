@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+header{
+    background-color: rgb(210, 210, 210);
+    padding: 16px;
+}
+
+.mainWrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.main{
+    background-color: antiquewhite;
+    padding: 16px;
+}
+
+.aside{
+    background-color: rgb(186, 218, 182);
+    padding: 16px;
+}
+
+.more_wrapper{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  8px 16px;
+}
+.more{
+    background-color: rgb(213, 195, 92);
+    padding: 16px;
+}
+.more3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+footer{
+    background-color: rgb(213, 213, 213);
+    padding: 16px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer_item{
+    background-color: #fff;
+    padding: 16px;
+}
